@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lora:wght@500&display=swap');
+/* Home page */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.portfolio{
+    background-color:white;
+    color: rgb(9, 92, 92);
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-size: large;
+    
+}
+.navbar {
+    margin: 0, 0, 20px, 0;
+    padding: 20;
+    overflow: auto;
+    background-color: gray;
+    color: white;
+    height: 500vh;
+    width: 273px;
+    line-height: 60px;
+    
+}
+.navbar ul li{
+   
+    list-style: none;
+    padding: 0;
+    font-family:'Lora', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.content{
+    width: 90vw;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+}
+.buttons{
+    align-items: center;
+}
+.buttons button{
+    margin-top: 34px; 
+    color: rgb(69, 139, 201);
+    padding: 6px;
+    outline-color: blue;
+    border-color: black;
+    border-radius: 8px;
+    background-color: yellow;
+ 
+ }
+ .buttons button:hover{
+    background-color: greenyellow;
+     border-color: rgb(14, 14, 245);
+     color: rgb(8, 8, 8);
+ }
+.greet{
+    color: rgb(186, 221, 221);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.name{
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+.myabout{
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.goto a{
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    background-color: rgb(13, 187, 100);
+    color: black;
+    border-radius: 7px;
+    margin-left: 47%;
+    margin-right: 40%;
+}
+
+/* about section */
+.heading{
+    color: rgb(245, 136, 212);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about{
+    
+font-family: 'Lora', serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    line-height: 45px;
+}
+.pic{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.mycontent{
+    margin-top: 40px;
+line-height: 58px;
+margin-bottom: 10px;
+margin-left: 35px;
+margin-right: 35px;
+flex-direction: column;
+}
+/* contact page */
+.contact{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 45px;
+}
+.form{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    margin-left: 10px;
+    padding: 10px;
+    line-height: 45px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(26, 196, 202);
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.skillitem{
+    display: flex;
+}
+
+/* service */
+.service h1{
+    text-align: center;
+}
+.photo1{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.photo2{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
