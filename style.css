@@ -1,26 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lora:wght@500&display=swap');
-/* Home page */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
+
+/* ------------------------------------Heading------------------------------- */
+
+
+.portfolio{
+    color: rgb(3, 58, 3);
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-size: large;
+    font-family: "Gill Sans", sans-serif;
+}
+/* ------------------------common to all pages------------------------ */
 
 *{
     margin: 0;
     padding: 0;
 }
-.portfolio{
-    background-color:white;
-    color: rgb(9, 92, 92);
-    margin-top: 13px;
-    margin-left: 10px;
-    margin-bottom: 13px;
-    font-size: large;
-    
-}
 .navbar {
     margin: 0, 0, 20px, 0;
     padding: 20;
     overflow: auto;
-    background-color: gray;
+    background-color: #05BE70;
     color: white;
     height: 500vh;
     width: 273px;
@@ -35,144 +40,199 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+li::before{
+    content: "\2192";
+    margin-right: 0.5em;
+}
 .navbar ul li a{
     text-decoration: none;
     color: white;
 
 }
+/* --------------------------------home page------------------------------- */
+.myphoto{
+    object-fit: cover;
+    border-radius: 100%;
+    float: right;
+    height:350px; 
+    width: 250px;
+}
+
 .content{
     width: 90vw;
-    background-image: url(img/background.jpg);
+    background-image: url(img/backg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: antiquewhite;
+    color: rgb(3, 58, 3);
 }
 .container{
     display: flex;
 }
-.buttons{
-    align-items: center;
-}
-.buttons button{
-    margin-top: 34px; 
-    color: rgb(69, 139, 201);
-    padding: 6px;
-    outline-color: blue;
-    border-color: black;
-    border-radius: 8px;
-    background-color: yellow;
- 
- }
- .buttons button:hover{
-    background-color: greenyellow;
-     border-color: rgb(14, 14, 245);
-     color: rgb(8, 8, 8);
- }
 .greet{
-    color: rgb(186, 221, 221);
-    font-family: 'Lora', serif;
+    color: rgb(3, 58, 3);
+    font-family:  "Gill Sans", sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 80px;
     margin-bottom: 10px;
 }
 .name{
-    font-family: 'Lora', serif;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(3, 58, 3);
     text-align: center;
-    font-size: 40px;
-
+    font-size: 50px;
 }
 .myabout{
     text-align: center;
+    font-family: 'Belanosima', sans-serif;
     font-size: larger;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
 }
 .goto a{
     text-align: center;
     text-decoration: none;
     font-size: large;
     background-color: rgb(13, 187, 100);
-    color: black;
+    color: rgb(3, 58, 3);
     border-radius: 7px;
-    margin-left: 47%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 0%;
+    margin-bottom: 131px;
 }
 
-/* about section */
+/* ----------------------------about section---------------------------------- */
+
+
 .heading{
-    color: rgb(245, 136, 212);
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .about{
     
-font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 300px;
     padding: 10px;
     line-height: 45px;
 }
 .pic{
+    height:350px; 
+    width: 250px;
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
+    border-radius: 30%;
+    
 
 }
 .mycontent{
+    font-family: 'Belanosima', sans-serif;
     margin-top: 40px;
-line-height: 58px;
-margin-bottom: 10px;
-margin-left: 35px;
-margin-right: 35px;
-flex-direction: column;
+    line-height: 58px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    flex-direction: column;
 }
-/* contact page */
+.buttons{
+    align-items: center;
+}
+.buttons button{
+    margin-top: 34px; 
+    padding: 6px;
+    border-radius: 8px;
+    outline-color: blue;
+    border-color: black;
+    color: rgb(126, 241, 126);
+    background-color: rgb(3, 58, 3);
+ }
+ .buttons button:hover{
+    background-color: rgb(126, 241, 126);
+    color: rgb(3, 58, 3);
+ }
+
+
+
+/* ------------------------contact page--------------------------------- */
+
+
 .contact{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 45px;
 }
-.form{
+.form-page{
+    display: flex;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px ;
     margin-left: 10px;
     padding: 10px;
     line-height: 45px;
+    justify-content: center;
 }
 .btn{
     padding: 10px;
     border-radius: 7px;
-    background-color: rgb(26, 196, 202);
+    color: rgb(126, 241, 126);
+    background-color: rgb(3, 58, 3);
 }
 .btn:hover{
-    background-color: green;
-    color: white;
+    background-color: rgb(126, 241, 126);
+    color: rgb(3, 58, 3);
 }
 
 .skillitem{
     display: flex;
 }
 
-/* service */
+textarea{
+    height: 100px !important;
+}
+
+.textbox{
+    border-radius: 5px;
+    background-color: #fff;
+    color:rgb(13, 187, 100);
+    border: none;
+    height: 35px;
+    width: 150px;
+}
+
+
+
+
+
+/* --------------------------------service---------------------------------- */
+
+
 .service h1{
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 45px;
 }
 .photo1{
     margin-top: 50px;
     margin-left: 50px;
     float: left;
+    padding: 10px;
+    border-radius: 10%;
+
 }
 .photo2{
     margin-top: 50px;
     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10%;
     float: left;
 }
 
